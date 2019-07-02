@@ -6,7 +6,12 @@ public class BasicsDemo{
 		System.out.println("Inside foo...");
 	}
 
+	public void stringExamples(){
+		System.out.println("Hello");
+	}
+
 	public static void main(String[] args) {
-		foo();
+		BasicsDemo bd = new BasicsDemo();
+		bd.stringExamples();
 	}
 }
