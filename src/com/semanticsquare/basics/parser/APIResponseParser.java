@@ -1,3 +1,6 @@
+package com.semanticsquare.basics.parser;
+
+
 public class APIResponseParser {
     
      /**
@@ -11,8 +14,8 @@ public class APIResponseParser {
 		String endRule = "<";
 		
 		String startRule = "<title>";		
-		String title = parse(response, startRule, endRule); 
-	    book.setTitle(title);
+//		String title = parse(response, startRule, endRule);
+//	    book.setTitle(title);
 
 	    
 		
@@ -48,6 +51,7 @@ public class APIResponseParser {
 								"</best_book>" +
 							"</work>";
 		
-		APIResponseParser.parse(response);
+//		APIResponseParser.parse(response);
+		 System.out.println(response);
 	}
 }

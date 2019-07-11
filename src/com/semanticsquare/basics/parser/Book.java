@@ -1,4 +1,6 @@
-public class Book {		
+package com.semanticsquare.basics.parser;
+
+public class Book {
         private String title;
 		private String author;
 		private int publicationYear;
