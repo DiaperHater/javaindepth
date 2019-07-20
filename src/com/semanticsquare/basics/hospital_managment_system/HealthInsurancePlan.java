@@ -4,11 +4,11 @@ public class HealthInsurancePlan {
     private double coverage;
     private InsuranceBrand offeredBy;
 
-    public double getCoverage() {
+    protected double getCoverage() {
         return coverage;
     }
 
-    public void setCoverage(double coverage) {
+    protected void setCoverage(double coverage) {
         this.coverage = coverage;
     }
 
